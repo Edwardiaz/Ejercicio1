@@ -18,9 +18,9 @@ public class ControladorPersona {
         
         System.out.println("DATOS DE DOS PERSONAS: ");
         System.out.println("El usuario 1 es "+perClie.getCliente());
-        System.out.println("Su nombre es: "+perClie.nombreCliente());
+        System.out.println("Su nombre es: "+perClie.getNombres());
         System.out.println("El usuario 2 es "+perEmp.getEmpleado());
-        System.out.println("Nombre empleado: "+perEmp.nombreEmpleado());
+        System.out.println("Nombre empleado: "+perEmp.getNombres());
         //metodo que solo le pertenece a Empleado
         System.out.println("Nombre empresa es: "+((Empleado)perEmp).getEmpresa());
         

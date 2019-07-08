@@ -21,15 +21,9 @@ public abstract class Persona{
     public String getEmpleado(){
         return "Hola soy un Empleado";
     }
-    public String nombreCliente(){
-        return "Mucho gusto Juan";
+    public String getNombres(){
+        return "Mucho gusto";
     }
-    
-    public String nombreEmpleado(){
-        return "muicho gusto Felix";
-    }
-    
-    
     
     public int getIdPersona() {
         return idPersona;

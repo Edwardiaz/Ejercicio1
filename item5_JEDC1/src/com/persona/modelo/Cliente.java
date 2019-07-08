@@ -18,7 +18,7 @@ public class Cliente extends Persona{
         return "PERSONA: CLIENTE ";
     }
     @Override
-    public String nombreCliente(){
+    public String getNombres(){
         return "hola soy "+getNombreCliente();
         
     }

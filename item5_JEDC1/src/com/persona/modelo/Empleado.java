@@ -15,7 +15,7 @@ public class Empleado extends Persona {
     }
     
    @Override
-    public String nombreEmpleado(){
+    public String getNombres(){
         return "Mi nombre es Felix";
     }
 
