@@ -9,7 +9,7 @@ import com.persona.modelo.Persona;
  *
  * @author educacion
  */
-public class ControladorPersona {
+public class ControladorPersona { 
     
     public static void main(String[] args) {
         
